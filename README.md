@@ -34,3 +34,7 @@ Compilation and flashing can be done from within VS Code (through custom tasks) 
 1. Choose `Flash (Quartus SignalTap II)`
 
 Note: You can assemble in one step (assuming you have the default shortcuts) by hitting Ctrl+Shift+B
+
+# Syntax Highlighting
+
+You can install this extension: https://marketplace.visualstudio.com/items?itemName=junwatu.8051 to get syntax highlighting on the 8051 assembly (doesn't seem to support all the A51 assembler directives though)
