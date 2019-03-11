@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "options": {
         "env": {
-            // If necessary modify these to paths to match the install locations for CrossIDE and Quartus on your system
+            // Modify these paths to match the install locations for CrossIDE and Quartus on your system
             // Don't include trailing slashes
             "CROSSIDE_PATH": "C:\\CrossIDE",
             "QUARTUS_PATH": "C:\\intelFPGA_lite\\18.1\\quartus"
@@ -21,7 +21,7 @@
             }
         },
         {
-            "label": "Upload (Quartus SignalTap II)",
+            "label": "Flash (Quartus SignalTap II)",
             "type": "shell",
             "command": "C:\\Windows\\System32\\cmd.exe /C '%QUARTUS_PATH%\\bin64\\quartus_stp.exe -t %CROSSIDE_PATH%\\Load_Script.tcl ${fileDirname}\\${fileBasenameNoExtension}.hex'",
             "group": {
