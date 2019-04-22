@@ -18,7 +18,8 @@
             "group": {
                 "kind": "build",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
         },
         {
             "label": "Flash (Quartus SignalTap II)",
@@ -27,7 +28,14 @@
             "group": {
                 "kind": "test",
                 "isDefault": true
-            }
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Debug (CMON51)",
+            "type": "shell",
+            "command": "C:\\Windows\\System32\\cmd.exe /C '%QUARTUS_PATH%\\bin64\\quartus_stp.exe -t %CROSSIDE_PATH%\\cmon51.tcl'",
+            "problemMatcher": []
         }
     ]
 }
