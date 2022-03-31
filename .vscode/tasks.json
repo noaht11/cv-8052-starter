@@ -45,12 +45,6 @@
       "dependsOrder": "sequence",
       "dependsOn": ["Assemble (A51)", "Flash (Quartus SignalTap II)"],
       "problemMatcher": []
-    },
-    {
-      "label": "Assemble and Flash",
-      "dependsOrder": "sequence",
-      "dependsOn": ["Assemble (A51)", "Flash (Quartus SignalTap II)"],
-      "problemMatcher": []
     }
   ]
 }
